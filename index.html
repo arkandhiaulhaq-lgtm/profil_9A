@@ -1,14 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Saya</title>
     <style>
-        
+        /* CSS untuk styling dasar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .social-links a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    
+
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-photo">
+            <h1>Nama Anda</h1>
+            <p><strong>Jabatan atau Deskripsi Singkat</strong></p>
+        </header>
+
+        <section class="section">
+            <h2>Tentang Saya</h2>
+            <p>
+                Tuliskan deskripsi diri Anda di sini. Ceritakan tentang keahlian, minat, atau pengalaman yang relevan. Ini adalah tempat yang bagus untuk memperkenalkan diri secara profesional atau personal.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Pengalaman & Keahlian</h2>
+            <ul>
+                <li><strong>Keahlian/Skill 1:</strong> Deskripsi singkat.</li>
+                <li><strong>Keahlian/Skill 2:</strong> Deskripsi singkat.</li>
+                <li><strong>Pengalaman Kerja 1:</strong> Nama Perusahaan, Tahun Mulai - Selesai</li>
+                <li><strong>Pengalaman Kerja 2:</strong> Nama Perusahaan, Tahun Mulai - Selesai</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Kontak & Media Sosial</h2>
+            <ul class="social-links">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="mailto:emailanda@gmail.com">Email</a></li>
+            </ul>
+        </section>
+    </div>
+
 </body>
 </html>
